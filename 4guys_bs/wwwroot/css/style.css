@@ -1,0 +1,44 @@
+﻿body {
+}
+
+#navbar.nav-celnav-t11 {
+    background-color: #00453e;
+}
+
+#navbar.nav-flex {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    position: static;
+    float: none;
+    -webkit-flex-flow: column nowrap;
+    -ms-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+/*    -webkit-box: 1;*/
+/*    -moz-box: 1;*/
+/*    -webkit-flex: 1 1 auto;*/
+/*    -ms-flex: 1 1 auto;*/
+/*    flex: 1 1 auto;*/
+}
+#navbar {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 198;
+    font-family: inherit;
+    font-size: 12px;
+    line-height: 1em;
+    display: block;
+    zoom: 1;
+    min-width: 1000px;
+}
+
+navbar-brand{
+
+}
+container-fluid {
+}
+
+

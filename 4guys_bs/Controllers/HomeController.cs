@@ -1,6 +1,11 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using _4guys_bs.Models;
+using Microsoft.AspNetCore.Hosting.Server;
+using Microsoft.AspNetCore.Server;
+using Microsoft.AspNetCore.Components.Server;
+using System.Formats.Asn1;
+using System.Globalization;
 
 namespace _4guys_bs.Controllers;
 
@@ -17,6 +22,26 @@ public class HomeController : Controller
     {
         return View();
     }
+
+    public IActionResult Admin()
+    {
+        return View();
+    }
+
+    public IActionResult Forms()
+    {
+        return View();
+    }
+
+    public IActionResult Login()
+    {
+        return View();
+    }
+    //read the file .csv
+    
+
+    // end read csv
+
 
     public IActionResult Privacy()
     {
