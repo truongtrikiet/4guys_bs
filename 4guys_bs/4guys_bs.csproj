@@ -64,6 +64,7 @@
     <Content Remove="wwwroot\login\css\" />
     <Content Remove="wwwroot\login\js\" />
     <Content Remove="Views\Home\Login.cshtml" />
+    <Content Remove="Views\Home\Register.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <None Include="wwwroot\dashboard\css\bootstrap.css" />
