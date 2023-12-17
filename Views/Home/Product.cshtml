@@ -1,0 +1,44 @@
+﻿@* @model List<Book> *@
+
+@{
+    ViewData["Title"] = "Product List";
+}
+
+<div>
+    <table class="table table-bordered table-hover table-striped tablesorter">
+        <thead>
+            <tr>
+                 <th>Id Book# <i class="fa"></i></th>
+                 <th>Title <i class="fa"></i></th>
+                 <th>Author <i class="fa"></i></th>
+                 <th>Price <i class="fa"></i></th>
+                 <th>Description <i class="fa"></i></th>
+                 <th>Category <i class="fa"></i></th>
+                 <th>ImgURL <i class="fa"></i></th>
+                 <th>Action: <i></i></th>
+            </tr>
+        </thead>
+            <tbody>
+                @*@foreach (var book in Model) {*@
+                <tr>
+                    @*<td>@book.IdBook</td>
+                    <td>@book.Title</td>
+                    <td>@book.Category</td>
+                    <td>@book.Price</td>
+                    <td>@book.Author</td>
+                    <td>@book.Description</td>*@
+                    @*<td><img src="" alt="Book Image" class="book-image">@book.ImgURL</td>*@
+                    @*<td>
+                        <a asp-area="" asp-controller="" asp-action="" class="action-icon" onclick="onEditClick('')">
+                            <i class="fa-edit"></i>
+                        </a> |
+                        <a asp-area="" asp-controller="" asp-action="" class="action-icon" onclick="onDeleteClick('')">
+                            <i class="fa-trash-alt"></i>
+                        </a>
+                    </td>*@
+                </tr>
+                @*}*@
+
+            </tbody>
+    </table>
+</div>
